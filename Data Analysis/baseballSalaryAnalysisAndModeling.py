@@ -72,7 +72,7 @@ plt.show()
 # Putting transformed input columns back into original input dataframe
 """
 I had to do replacement one-by-one as I was getting errors trying to do it all
-at once for some reason.
+at once.
 """
 X['CAtBat'] = Xlog['logCAtBat']
 X['CHits'] = Xlog['logCHits']
